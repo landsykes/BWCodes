@@ -1,0 +1,150 @@
+.signalandy{
+  width: 580px;
+  height: 200px;
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  background-color: #212121;
+  margin: 20px auto;
+}
+
+
+.signalandy .imgsignaleft{
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: relative;
+  overflow: clip;
+  border-right:1px solid #111;
+}
+
+
+.signalandy .imgsignaleft img{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 0;
+  flex-shrink: 0;
+  transition:ease 1s;
+  object-position:center;
+  
+}
+
+
+.signalandy .infosignaleft{
+  margin: auto;
+  color: white;
+  width: 90%;
+  flex-shrink: 0;
+  position: unset;
+  padding: 10px;
+  font-size: 11px;
+  text-align: center;
+  font-family: "Assistant", serif;
+  word-spacing: 3px;
+}
+
+
+.signalandy .imgsignaleft:hover .coversigna{
+  margin-left:-100%;
+}
+
+
+.signalandy .namestyle{
+  font-family: "Mr Dafoe", cursive;
+  font-weight: 200;
+  font-style: normal;
+  color:var(--color-highlight);
+      font-size: 50px;
+    margin-bottom: 7px;
+    line-break: anywhere;
+    line-height: 20px;
+    margin-top: 20px;
+      text-transform: none;
+}
+
+.signalandy .quotesignaright .namestyle{
+  font-size: 48px;
+}
+
+
+.signalandy .infosignaleft .namestyle {
+  margin-top:10px;margin-bottom:20px;
+}
+
+
+.signalandy .infos {
+  font-size:13px;
+  margin-top:-16px;
+  line-height:14px;
+}
+
+
+.signalandy .iconsLine {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  justify-content: center;
+  margin:7px 0px;
+}
+
+
+.signalandy .iconsLine img {
+  width:80px;
+  height:80px;
+}
+
+
+.signalandy .chatcode {
+  font-size:13px;
+}
+
+
+.signalandy .chatcode span {
+  color:var(--color-highlight);
+  text-transform:uppercase;
+}
+
+
+.signalandy .quotesignaright{
+      width: 135px;
+    height: 90%;
+    margin: auto;
+    padding: 15px 15px;
+    padding-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Assistant", serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 3px;
+    text-transform: lowercase;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signalandy .quotesignaright .quotetxt{
+  width: 100px;
+  margin:auto;
+}
+
+.signalandy .quoteup {
+  position:absolute;
+  top:0px;
+  left:0px;
+  font-size:22px;
+}
+
+
+.signalandy .quotedown {
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  font-size:22px;
+}
+
