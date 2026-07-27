@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.RPJaden .landy-bannerWrap .landy-bannerTitle .RPTitle {
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPTitle {
   position: relative;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
@@ -50,7 +50,7 @@
     text-transform:uppercase;
 }
 
-.RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle {
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
     position: relative;
     font-style: italic;
     font-size: 13px;
@@ -155,7 +155,7 @@
   white-space:pre-line;
 }
 
-.RPJaden .landy-textcontent cap {
+.RPJaden .landy-textcontent:first-letter {
     float: left;
     font-family: 'Cormorant Garamond', serif;
     font-size: 52px;
@@ -215,7 +215,7 @@
 }
 
 .RPJaden .landy-mainpoke .landy-mainlvl {
-    font-size: 12px;
+    font-size: 13px;
     color: #ffc670;
     letter-spacing: 1px;
 }
