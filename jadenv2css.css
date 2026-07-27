@@ -223,7 +223,7 @@
 .RPJaden .landy-mainpoke .landy-maintalent {
     margin-top: 5px;
     font-size: 12px;
-    color: #ffdca0;
+    color: #ddd0bd;
     line-height: 1.6;
     margin-top:10px;
     padding-top:10px;
@@ -275,7 +275,7 @@
     background: #1c1712;
     border-radius: 3px;
     overflow: hidden;
-}
+} 
 
 .RPJaden .landy-hpbar-fill {
     height: 100%;
