@@ -5,6 +5,10 @@
     margin:auto;
 }
 
+.RPJaden i {
+  color:#c99a5c !important;
+}
+
 /*BANNER*/ 
 
 .RPJaden .landy-bannerWrap {
@@ -61,7 +65,7 @@
     justify-content: center;
 }
 
-.RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:after {
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
     content: '';
     flex: 1;
     max-width: 100px;
