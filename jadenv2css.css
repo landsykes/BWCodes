@@ -1,0 +1,302 @@
+.RPJaden {
+    background-color:#212121;
+    width:580px;
+    font-family: "Assistant", sans-serif;
+    margin:auto;
+}
+
+/*BANNER*/ 
+
+.RPJaden .landy-bannerWrap {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background: #131110;  
+}
+
+.RPJaden .landy-bannerWrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(.82) saturate(1.05) contrast(1.05);
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerFade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #21212100 0%, #21212199 45%, #212121f5 100%);
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 18px;
+    text-align: center;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .RPTitle {
+  position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffc670;
+    margin: 0;
+    text-transform:uppercase;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle {
+    position: relative;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #f0cf9e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:after {
+    content: '';
+    flex: 1;
+    max-width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #f0cf9e8c, transparent);
+}
+
+.RPJaden .landy-infobar {
+    background: #212121;
+    border-top: 1px solid #ffb25438;
+    border-bottom: 1px solid #ffb25438;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffc670;
+}
+
+/*BODY*/
+
+.RPJaden .landy-rpbody {
+    display: flex;
+    padding: 20px;
+    padding-bottom:10px;
+    gap: 20px;
+}
+
+.RPJaden .landy-sidebar {
+    width: 145px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.RPJaden .landy-sidetitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c99a5c;
+    text-align: left;
+    margin: 5px 0 8px;
+    border-bottom: 1px solid #ffb25438;
+    padding-bottom: 5px;
+}
+
+.RPJaden .landy-sidebar .landy-poke {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    padding: 5px 4px;
+    margin-bottom: 3px;
+    background: #ffdca00d;
+    position: relative;
+}
+
+.RPJaden .landy-sidebar .landy-poke img {
+    width:32px;
+    height:32px;
+}
+
+.RPJaden .landy-sidebar .landy-poke .landy-pokename {
+    font-size: 12px;
+    color: #f0e2c8;
+    line-height: 1.2;
+}
+
+.RPJaden .landy-sidebar .landy-poke .landy-pokeinfo {
+    font-size: 10px;
+    color: #ffc670;
+}
+
+.RPJaden .landy-sidebar .landy-rowitem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 11px;
+    color: #d9c9a8;
+    background: #ffdca00d;
+    margin-bottom: 3px;
+}
+
+.RPJaden .landy-textcontent {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ddd0bd;
+    text-align:justify;
+  white-space:pre-line;
+}
+
+.RPJaden .landy-textcontent cap {
+    float: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    line-height: 38px;
+    padding: 4px 8px 0 0;
+    color: #ffc670;
+    text-shadow: 0 0 14px #ffc67066;
+}
+
+.RPJaden highlight {
+  color:#ffc670;
+}
+
+.RPJaden jaden {
+    color: #ffb347;
+}
+
+/*BOTTOM*/
+
+.RPJaden .landy-modo {
+    margin: 0 16px 0px;
+    padding: 8px 12px;
+    border: 1px solid #ffb25438;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ddd0bd;
+}
+
+.RPJaden .landy-mainpoke {
+    margin: 10px 16px;
+    border: 1px solid #ffb25438;
+    padding: 10px 18px;
+}
+
+.RPJaden .landy-mainpoke img {
+    background-color:#ffdca00d;
+  border: 1px solid #ffb25438;
+}
+
+.RPJaden .landy-mainpoke .topmainpoke {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.RPJaden .landy-mainpoke .flexpokelevel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.RPJaden .landy-mainpoke .landy-mainname {
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffdca0;
+}
+
+.RPJaden .landy-mainpoke .landy-mainlvl {
+    font-size: 12px;
+    color: #ffc670;
+    letter-spacing: 1px;
+}
+
+.RPJaden .landy-mainpoke .landy-maintalent {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #ffdca0;
+    line-height: 1.6;
+    margin-top:10px;
+    padding-top:10px;
+    border-top: 1px solid #ffb25438;
+}
+
+.RPJaden .landy-mainpoke .landy-maintalent b {
+    color: #ffc670;
+  text-transform:uppercase;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats th {
+    width: 16.66%;
+    color: #ffc670;
+    font-weight: 500;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats td {
+    color: #f0e2c8;
+    padding: 3px 0;
+    border-top: 1px solid #ffb25438;
+}
+
+.RPJaden .landy-hpbar {
+  margin-top: 5px;
+}
+
+.RPJaden .landy-hpbar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #ffc670;
+    margin-bottom: 3px;
+}
+
+.RPJaden .landy-hpbar-track {
+    height: 6px;
+    background: #1c1712;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.RPJaden .landy-hpbar-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #f9b945, #ff821e);
+}
+
+.RPJaden .landy-spotify {
+    padding: 0px 17px;
+}
+
+.RPJaden iframe {
+    border: 1px solid #ffb25438;
+}
+
+codebylandy {
+  width:100%;
+  display:block;
+  text-align:center;
+  font-size:10px;
+  color:#bababa;
+  margin-top: 10px;
+  padding-bottom:12px;
+}
