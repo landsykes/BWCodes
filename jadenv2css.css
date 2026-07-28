@@ -6,7 +6,7 @@
 }
 
 .RPJaden i {
-  color:#c99a5c !important;
+    color: #c99a5c !important;
 }
 
 /*BANNER*/ 
@@ -65,7 +65,7 @@
     justify-content: center;
 }
 
-.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+.RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .RPSubTitle:after {
     content: '';
     flex: 1;
     max-width: 100px;
@@ -201,7 +201,7 @@
 
 .RPJaden .landy-mainpoke .topmainpoke {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -253,17 +253,20 @@
     color: #ffc670;
     font-weight: 500;
     padding-bottom: 4px;
+    padding-top:10px;
     letter-spacing: 1px;
+    border-top: 1px solid #ffb25438;
 }
 
 .RPJaden .landy-mainpoke .landy-mainstats td {
     color: #f0e2c8;
     padding: 3px 0;
-    border-top: 1px solid #ffb25438;
+    border-top: 1px solid #f3ece30d;
 }
 
 .RPJaden .landy-hpbar {
-  margin-top: 5px;
+    margin-top: 5px;
+    width:98px;
 }
 
 .RPJaden .landy-hpbar-label {
