@@ -197,6 +197,10 @@
 .RPKai .landy-mainpoke img {
     background-color:#d68fd60d;
   border: 1px solid #c264d638;
+        width: 96px;
+    height: 96px;
+    object-fit: none;
+    object-position: center;
 }
 
 .RPKai .landy-mainpoke .topmainpoke {
