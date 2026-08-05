@@ -197,6 +197,10 @@
 .RPJaden .landy-mainpoke img {
     background-color:#ffdca00d;
   border: 1px solid #ffb25438;
+        width: 96px;
+    height: 96px;
+    object-fit: none;
+    object-position: center;
 }
 
 .RPJaden .landy-mainpoke .topmainpoke {
