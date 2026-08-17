@@ -1,0 +1,309 @@
+.RPCayenn {
+    background-color:#191919;
+    width:580px;
+    font-family: "Assistant", sans-serif;
+    margin:auto;
+}
+
+.RPCayenn i {
+  color:#cc7a3c;
+}
+ 
+/*BANNER*/ 
+
+.RPCayenn .landy-bannerWrap {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background: #131110;  
+}
+
+.RPCayenn .landy-bannerWrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(.82) saturate(1.05) contrast(1.05);
+}
+
+.RPCayenn .landy-bannerWrap .landy-bannerFade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #19191900 0%, #19191999 45%, #191919f5 100%);
+}
+
+.RPCayenn .landy-bannerWrap .landy-bannerTitle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 18px;
+    text-align: center;
+}
+
+.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPTitle {
+  position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ff8c3d;
+    margin: 0;
+    text-transform:uppercase;
+}
+
+.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
+    position: relative;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #f5b98a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, .RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+    content: '';
+    flex: 1;
+    max-width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #f5b98a8c, transparent);
+}
+
+.RPCayenn .landy-infobar {
+    background: #191919;
+    border-top: 1px solid #ff7d2938;
+    border-bottom: 1px solid #ff7d2938;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 11px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ff8c3d;
+}
+
+/*BODY*/
+
+.RPCayenn .landy-rpbody {
+    display: flex;
+    padding: 20px;
+    padding-bottom:10px;
+    gap: 20px;
+}
+
+.RPCayenn .landy-sidebar {
+    width: 145px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.RPCayenn .landy-sidetitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cc7a3c;
+    text-align: left;
+    margin: 5px 0 8px;
+    border-bottom: 1px solid #ff7d2938;
+    padding-bottom: 5px;
+}
+
+.RPCayenn .landy-sidebar .landy-poke {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    padding: 5px 4px;
+    margin-bottom: 3px;
+    background: #ffb26a0d;
+    position: relative;
+}
+
+.RPCayenn .landy-sidebar .landy-poke img {
+    width:32px;
+    height:32px;
+}
+
+.RPCayenn .landy-sidebar .landy-poke .landy-pokename {
+    font-size: 12px;
+    color: #f5ddc0;
+    line-height: 1.2;
+}
+
+.RPCayenn .landy-sidebar .landy-poke .landy-pokeinfo {
+    font-size: 10px;
+    color: #ff8c3d;
+}
+
+.RPCayenn .landy-sidebar .landy-rowitem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 11px;
+    color: #e0c7a8;
+    background: #ffb26a0d;
+    margin-bottom: 3px;
+}
+
+.RPCayenn .landy-textcontent {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e0d2ba;
+    text-align:justify;
+  white-space:pre-line;
+}
+
+.RPCayenn .landy-textcontent:first-letter {
+    float: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    line-height: 38px;
+    padding: 4px 8px 0 0;
+    color: #ff8c3d;
+    text-shadow: 0 0 14px #ff8c3d66;
+}
+
+.RPCayenn highlight {
+  color:#ff8c3d;
+}
+
+.RPCayenn cay {
+    color: #FF7929;
+}
+
+/*BOTTOM*/
+
+.RPCayenn .landy-modo {
+    margin: 0 16px 0px;
+    padding: 8px 12px;
+    border: 1px solid #ff7d2938;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e0d2ba;
+}
+
+.RPCayenn .landy-mainpoke {
+    margin: 10px 16px;
+    border: 1px solid #ff7d2938;
+    padding: 12px;
+}
+
+.RPCayenn .landy-mainpoke img {
+    background-color:#ffb26a0d;
+  border: 1px solid #ff7d2938;
+}
+
+.RPCayenn .landy-mainpoke .topmainpoke {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.RPCayenn .landy-mainpoke .flexpokelevel {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainname {
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffcda0;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainlvl {
+    font-size: 13px;
+    color: #ff8c3d;
+    letter-spacing: 1px;
+}
+
+.RPCayenn .landy-mainpoke .landy-maintalent {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #e0d2ba;
+    line-height: 1.6;
+    margin-top:10px;
+    padding-top:10px;
+    border-top: 1px solid #ff7d2938;
+}
+
+.RPCayenn .landy-mainpoke .landy-maintalent b {
+    color: #ff8c3d;
+  text-transform:uppercase;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainstats {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainstats th {
+    width: 16.66%;
+    color: #ff8c3d;
+    font-weight: 500;
+    padding-bottom: 4px;
+    padding-top:10px;
+    letter-spacing: 1px;
+    border-top: 1px solid #ff7d2938;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainstats td {
+    color: #f5e4cc;
+    padding: 3px 0;
+    border-top: 1px solid #f5ece30d;
+}
+
+.RPCayenn .landy-hpbar {
+    margin-top: 5px;
+    width:98px;
+}
+
+.RPCayenn .landy-hpbar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #ff8c3d;
+    margin-bottom: 3px;
+}
+
+.RPCayenn .landy-hpbar-track {
+    height: 6px;
+    background: #1c1712;
+    border-radius: 3px;
+    overflow: hidden;
+} 
+
+.RPCayenn .landy-hpbar-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ff9d42, #ff6a1e);
+}
+
+.RPCayenn .landy-spotify {
+    padding: 0px 17px;
+}
+
+.RPCayenn iframe {
+    border: 1px solid #ff7d2938;
+}
+
+codebylandy {
+  width:100%;
+  display:block;
+  text-align:center;
+  font-size:10px;
+  color:#bababa;
+  margin-top: 10px;
+  padding-bottom:12px;
+}
