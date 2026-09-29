@@ -101,7 +101,8 @@
 }
 
 .RPKai .landy-sidetitle {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight:600;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #d68fd6;
@@ -136,6 +137,8 @@
 .RPKai .landy-sidebar .landy-poke .landy-pokeinfo {
     font-size: 10px;
     color: #e896d9;
+    line-height: 14px;
+    padding-top: 1px;
 }
 
 .RPKai .landy-sidebar .landy-rowitem {
@@ -186,6 +189,19 @@
     font-size: 14px;
     line-height: 1.5;
     color: #e0d0e5;
+}
+
+.RPKai .landy-modo landymodo {
+    display:block;
+    padding-left:10px;
+    border-left:2px solid #e0d0e5;
+}
+
+.RPKai .landy-modo landymodo b {
+    font-size:13px;
+    font-weight:600;
+    color:#d097f9;
+    text-transform:uppercase;
 }
 
 .RPKai .landy-mainpoke {
