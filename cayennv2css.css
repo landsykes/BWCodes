@@ -190,13 +190,13 @@
 .RPCayenn .landy-modo landymodo {
     display:block;
     padding-left:10px;
-    border-left:2px solid #e0d2ba;
+    border-left:2px solid #ff9d42;
 }
 
 .RPCayenn .landy-modo landymodo b {
     font-size:13px;
     font-weight:600;
-    color:#cc7a3c !important;
+    color:#ff9d42 !important;
     text-transform:uppercase;
 }
 
