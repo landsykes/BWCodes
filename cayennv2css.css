@@ -1,3 +1,4 @@
+```css
 .RPCayenn {
     background-color:#191919;
     width:580px;
@@ -65,7 +66,8 @@
     justify-content: center;
 }
 
-.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, .RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, 
+.RPCayenn .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
     content: '';
     flex: 1;
     max-width: 100px;
@@ -102,6 +104,7 @@
 
 .RPCayenn .landy-sidetitle {
     font-size: 11px;
+    font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #cc7a3c;
@@ -136,6 +139,8 @@
 .RPCayenn .landy-sidebar .landy-poke .landy-pokeinfo {
     font-size: 10px;
     color: #ff8c3d;
+    line-height: 14px;
+    padding-top: 1px;
 }
 
 .RPCayenn .landy-sidebar .landy-rowitem {
@@ -156,7 +161,7 @@
     line-height: 1.5;
     color: #e0d2ba;
     text-align:justify;
-  white-space:pre-line;
+    white-space:pre-line;
 }
 
 .RPCayenn .landy-textcontent:first-letter {
@@ -188,6 +193,19 @@
     color: #e0d2ba;
 }
 
+.RPCayenn .landy-modo landymodo {
+    display:block;
+    padding-left:10px;
+    border-left:2px solid #e0d2ba;
+}
+
+.RPCayenn .landy-modo landymodo b {
+    font-size:13px;
+    font-weight:600;
+    color:#cc7a3c !important;
+    text-transform:uppercase;
+}
+
 .RPCayenn .landy-mainpoke {
     margin: 10px 16px;
     border: 1px solid #ff7d2938;
@@ -196,7 +214,11 @@
 
 .RPCayenn .landy-mainpoke img {
     background-color:#ffb26a0d;
-  border: 1px solid #ff7d2938;
+    border: 1px solid #ff7d2938;
+    width: 96px;
+    height: 96px;
+    object-fit: scale-down;
+    object-position: center;
 }
 
 .RPCayenn .landy-mainpoke .topmainpoke {
@@ -236,7 +258,7 @@
 
 .RPCayenn .landy-mainpoke .landy-maintalent b {
     color: #ff8c3d;
-  text-transform:uppercase;
+    text-transform:uppercase;
 }
 
 .RPCayenn .landy-mainpoke .landy-mainstats {
@@ -298,6 +320,10 @@
     border: 1px solid #ff7d2938;
 }
 
+.BackgroundColorContainer_backgroundColorContainer__YZSQ7 {
+    background-color: #191919 !important;
+}
+
 codebylandy {
   width:100%;
   display:block;
@@ -307,3 +333,4 @@ codebylandy {
   margin-top: 10px;
   padding-bottom:12px;
 }
+```
