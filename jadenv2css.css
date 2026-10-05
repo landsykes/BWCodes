@@ -1,3 +1,4 @@
+```css
 .RPJaden {
     background-color:#212121;
     width:580px;
@@ -65,7 +66,8 @@
     justify-content: center;
 }
 
-.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, .RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, 
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
     content: '';
     flex: 1;
     max-width: 100px;
@@ -102,6 +104,7 @@
 
 .RPJaden .landy-sidetitle {
     font-size: 11px;
+    font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #c99a5c;
@@ -136,6 +139,8 @@
 .RPJaden .landy-sidebar .landy-poke .landy-pokeinfo {
     font-size: 10px;
     color: #ffc670;
+    line-height: 14px;
+    padding-top: 1px;
 }
 
 .RPJaden .landy-sidebar .landy-rowitem {
@@ -156,7 +161,7 @@
     line-height: 1.5;
     color: #ddd0bd;
     text-align:justify;
-  white-space:pre-line;
+    white-space:pre-line;
 }
 
 .RPJaden .landy-textcontent:first-letter {
@@ -188,6 +193,19 @@
     color: #ddd0bd;
 }
 
+.RPJaden .landy-modo landymodo {
+    display:block;
+    padding-left:10px;
+    border-left:2px solid #ffc670;
+}
+
+.RPJaden .landy-modo landymodo b {
+    font-size:13px;
+    font-weight:600;
+    color:#ffc670 !important;
+    text-transform:uppercase;
+}
+
 .RPJaden .landy-mainpoke {
     margin: 10px 16px;
     border: 1px solid #ffb25438;
@@ -196,8 +214,8 @@
 
 .RPJaden .landy-mainpoke img {
     background-color:#ffdca00d;
-  border: 1px solid #ffb25438;
-        width: 96px;
+    border: 1px solid #ffb25438;
+    width: 96px;
     height: 96px;
     object-fit: scale-down;
     object-position: center;
@@ -240,7 +258,7 @@
 
 .RPJaden .landy-mainpoke .landy-maintalent b {
     color: #ffc670;
-  text-transform:uppercase;
+    text-transform:uppercase;
 }
 
 .RPJaden .landy-mainpoke .landy-mainstats {
@@ -302,6 +320,10 @@
     border: 1px solid #ffb25438;
 }
 
+.BackgroundColorContainer_backgroundColorContainer__YZSQ7 {
+    background-color: #212121 !important;
+}
+
 codebylandy {
   width:100%;
   display:block;
@@ -311,3 +333,4 @@ codebylandy {
   margin-top: 10px;
   padding-bottom:12px;
 }
+```
