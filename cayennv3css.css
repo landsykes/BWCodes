@@ -1,10 +1,11 @@
-.RPCayenn { background-color:#191919; width:580px; font-family: "Assistant", sans-serif; margin:auto; }
-
-.RPCayenn i {
-  color:#cc7a3c;
+.RPCayenn { 
+  background-color:#191919; 
+  width:580px; 
+  font-family: "Assistant", sans-serif; 
+  margin:auto; 
 }
  
-/*BANNER*/  
+/*BANNER*/   
 
 .RPCayenn .landy-bannerWrap {
     position: relative;
@@ -83,11 +84,54 @@
 
 /*BODY*/
 
+.RPCayenn .landy-dataRP {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color:#f5ddc0;
+    gap:10px;
+}
+
+.RPCayenn .landy-dataRP .landy-subdata {
+    background-color:#ffb26a0d;
+    width:100%;
+    text-align:center;
+    padding: 5px;
+}
+
+.RPCayenn .landy-dataRP .landy-subdata .landy-titlesubdata {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #cc7a3c;
+}
+
 .RPCayenn .landy-rpbody {
     display: flex;
     padding: 20px;
     padding-bottom:10px;
     gap: 20px;
+    padding-top:0;
+}
+
+.landy-trigger {
+    background-color: #312020;
+    padding: 5px 15px;
+    color: #d76969;
+    border: 1px solid #d76969;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.landy-trigger i {
+    font-size:30px;
 }
 
 .RPCayenn .landy-sidebar {
@@ -96,9 +140,13 @@
     text-align: center;
 }
 
+.RPCayenn .landy-sidebar i {
+    font-size:18px;
+}
+
 .RPCayenn .landy-sidetitle {
     font-size: 11px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #cc7a3c;
@@ -106,6 +154,8 @@
     margin: 5px 0 8px;
     border-bottom: 1px solid #ff7d2938;
     padding-bottom: 5px;
+  display:flex;
+  align-items:center;
 }
 
 .RPCayenn .landy-sidebar .landy-poke {
@@ -158,16 +208,6 @@
     white-space:pre-line;
 }
 
-.RPCayenn .landy-textcontent:first-letter {
-    float: left;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 52px;
-    line-height: 38px;
-    padding: 4px 8px 0 0;
-    color: #ff8c3d;
-    text-shadow: 0 0 14px #ff8c3d66;
-}
-
 .RPCayenn highlight {
   color:#ff8c3d;
 }
@@ -218,26 +258,32 @@
 .RPCayenn .landy-mainpoke .topmainpoke {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 15px;
+    color: #ffcda0;
 }
 
 .RPCayenn .landy-mainpoke .flexpokelevel {
     display: flex;
     align-items: center;
-    gap: 12px;
+}
+
+.landy-flextalentobj {
+  display:flex;
+  gap:15px;
 }
 
 .RPCayenn .landy-mainpoke .landy-mainname {
     text-transform:uppercase;
     font-weight: 600;
-    font-size: 16px;
-    color: #ffcda0;
-}
+    font-size: 18px;
+    margin-top: -4px;
+} 
 
 .RPCayenn .landy-mainpoke .landy-mainlvl {
     font-size: 13px;
     color: #ff8c3d;
     letter-spacing: 1px;
+    margin-bottom:7px;
 }
 
 .RPCayenn .landy-mainpoke .landy-maintalent {
@@ -246,8 +292,9 @@
     color: #e0d2ba;
     line-height: 1.6;
     margin-top:10px;
-    padding-top:10px;
+    padding-top:5px;
     border-top: 1px solid #ff7d2938;
+    flex:1;
 }
 
 .RPCayenn .landy-mainpoke .landy-maintalent b {
@@ -259,9 +306,22 @@
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
-    margin-top: 12px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+    display:flex;
+    gap:10px;
+    justify-content: space-evenly;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainstats div {
+    background: #ffb26a0d;
+  text-align:center;
+  padding:5px;
+  width:100%;
+}
+
+.RPCayenn .landy-mainpoke .landy-mainstats div b {
+    color: #ff8c3d;
 }
 
 .RPCayenn .landy-mainpoke .landy-mainstats th {
@@ -282,7 +342,7 @@
 
 .RPCayenn .landy-hpbar {
     margin-top: 5px;
-    width:98px;
+    width:100%;
 }
 
 .RPCayenn .landy-hpbar-label {
