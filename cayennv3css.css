@@ -97,6 +97,7 @@
     width:100%;
     text-align:center;
     padding: 5px;
+    font-size: 15px;
 }
 
 .RPCayenn .landy-dataRP .landy-subdata .landy-titlesubdata {
@@ -105,6 +106,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #cc7a3c;
+    padding-bottom: 2px;
 }
 
 .RPCayenn .landy-rpbody {
