@@ -389,4 +389,117 @@ codebylandy {
   margin-top: 10px;
   padding-bottom:12px;
 }
-```
+
+.RPJune .landy-bannerWrap .landy-bannerTitle .landy-RPTitle {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
+    color: #E9D5FF;
+}
+
+.RPJune .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before,
+.RPJune .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+    background: linear-gradient(90deg, transparent, #E9D5FF8c, transparent);
+}
+
+.RPJune .landy-infobar {
+    border-top: 1px solid #D8B4FE38;
+    border-bottom: 1px solid #D8B4FE38;
+    color: #D8B4FE;
+}
+
+.RPJune .landy-dataRP .landy-subdata {
+    background-color: #D8B4FE0d;
+}
+
+.RPJune .landy-dataRP .landy-subdata .landy-titlesubdata {
+    color: #C084FC;
+}
+
+.RPJune .landy-sidetitle {
+    color: #C084FC;
+    border-bottom: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-sidebar .landy-poke {
+    background: #D8B4FE0d;
+}
+
+.RPJune .landy-sidebar .landy-poke .landy-pokeinfo {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-sidebar .landy-rowitem {
+    background: #D8B4FE0d;
+}
+
+.RPJune highlight {
+    color: #D8B4FE;
+}
+
+.RPJune cay {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-modo {
+    border: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-modo landymodo {
+    border-left: 2px solid #D8B4FE;
+}
+
+.RPJune .landy-modo landymodo b {
+    color: #D8B4FE !important;
+}
+
+.RPJune .landy-mainpoke {
+    border: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-mainpoke img {
+    background-color: #D8B4FE0d;
+    border: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-mainpoke .topmainpoke {
+    color: #E9D5FF;
+}
+
+.RPJune .landy-mainpoke .landy-mainlvl {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-mainpoke .landy-maintalent {
+    border-top: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-mainpoke .landy-maintalent b {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-mainpoke .landy-mainstats div {
+    background: #D8B4FE0d;
+}
+
+.RPJune .landy-mainpoke .landy-mainstats div b {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-mainpoke .landy-mainstats th {
+    color: #D8B4FE;
+    border-top: 1px solid #D8B4FE38;
+}
+
+.RPJune .landy-hpbar-label {
+    color: #D8B4FE;
+}
+
+.RPJune .landy-hpbar-fill {
+    background: linear-gradient(90deg, #D8B4FE, #C084FC);
+}
+
+.RPJune iframe {
+    border: 1px solid #D8B4FE38;
+}
