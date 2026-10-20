@@ -1,0 +1,419 @@
+.RPJaden { 
+  background-color:#212121; 
+  width:580px; 
+  font-family: "Assistant", sans-serif; 
+  margin:auto; 
+}
+ 
+/* JADEN-SPECIFIC STYLING */
+.RPJaden i {
+    color: #c99a5c !important;
+}
+
+/*BANNER*/   
+
+.RPJaden .landy-bannerWrap {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background: #131110;  
+}
+
+.RPJaden .landy-bannerWrap img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(.82) saturate(1.05) contrast(1.05);
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerFade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #21212100 0%, #21212199 45%, #212121f5 100%);
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 20px 18px;
+    text-align: center;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPTitle {
+  position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffc670;
+    margin: 0;
+    text-transform:uppercase;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
+    position: relative;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #f0cf9e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, 
+.RPJaden .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+    content: '';
+    flex: 1;
+    max-width: 100px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #f0cf9e8c, transparent);
+}
+
+.RPJaden .landy-infobar {
+    background: #212121;
+    border-top: 1px solid #ffb25438;
+    border-bottom: 1px solid #ffb25438;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 11px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffc670;
+}
+
+/*BODY*/
+
+.RPJaden .landy-dataRP {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color:#f0e2c8;
+    gap:10px;
+}
+
+.RPJaden .landy-dataRP .landy-subdata {
+    background-color:#ffdca00d;
+    width:100%;
+    text-align:center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.RPJaden .landy-dataRP .landy-subdata .landy-titlesubdata {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c99a5c;
+    padding-bottom: 2px;
+}
+
+.RPJaden .landy-rpbody {
+    display: flex;
+    padding: 20px;
+    padding-bottom:10px;
+    gap: 20px;
+    padding-top:0;
+}
+
+.landy-trigger {
+    background-color: #312020;
+    padding: 5px 15px;
+    color: #d76969;
+    border: 1px solid #d76969;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.landy-trigger i {
+    font-size:30px;
+}
+
+.RPJaden .landy-sidebar {
+    width: 145px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.RPJaden .landy-sidebar i {
+    font-size:18px;
+}
+
+.RPJaden .landy-sidetitle {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c99a5c;
+    text-align: left;
+    margin: 5px 0 8px;
+    border-bottom: 1px solid #ffb25438;
+    padding-bottom: 5px;
+  display:flex;
+  align-items:center;
+}
+
+.RPJaden .landy-sidebar .landy-poke {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+    padding: 5px 4px;
+    margin-bottom: 3px;
+    background: #ffdca00d;
+    position: relative;
+}
+
+.RPJaden .landy-sidebar .landy-poke img {
+    width:32px;
+    height:32px;
+}
+
+.RPJaden .landy-sidebar .landy-poke .landy-pokename {
+    font-size: 12px;
+    color: #f0e2c8;
+    line-height: 1.2;
+}
+
+.RPJaden .landy-sidebar .landy-poke .landy-pokeinfo {
+    font-size: 10px;
+    color: #ffc670;
+    line-height: 14px;
+    padding-top: 1px;
+}
+
+.RPJaden .landy-sidebar .landy-rowitem {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-align: left;
+    padding: 0px 2px;
+    font-size: 11px;
+    color: #d9c9a8;
+    background: #ffdca00d;
+    margin-bottom: 3px;
+}
+
+.RPJaden .landy-textcontent {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ddd0bd;
+    text-align:justify;
+    white-space:pre-line;
+}
+
+.RPJaden highlight {
+  color:#ffc670;
+}
+
+.RPJaden jaden {
+    color: #ffb347;
+}
+
+/*BOTTOM*/
+
+.RPJaden .landy-modo {
+    margin: 0 16px 0px;
+    padding: 8px 12px;
+    border: 1px solid #ffb25438;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ddd0bd;
+}
+
+.RPJaden .landy-modo landymodo {
+    display:block;
+    padding-left:10px;
+    border-left:2px solid #ffc670;
+}
+
+.RPJaden .landy-modo landymodo b {
+    font-size:13px;
+    font-weight:600;
+    color:#ffc670 !important;
+    text-transform:uppercase;
+}
+
+.RPJaden .landy-mainpoke {
+    margin: 10px 16px;
+    border: 1px solid #ffb25438;
+    padding: 12px;
+}
+
+.RPJaden .landy-mainpoke img {
+    background-color:#ffdca00d;
+    border: 1px solid #ffb25438;
+    width: 96px;
+    height: 96px;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.RPJaden .landy-mainpoke .topmainpoke {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    color: #ffdca0;
+}
+
+.RPJaden .landy-mainpoke .flexpokelevel {
+    display: flex;
+    align-items: center;
+}
+
+.landy-flextalentobj {
+  display:flex;
+  gap:15px;
+}
+
+.RPJaden .landy-mainpoke .landy-mainname {
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: -4px;
+} 
+
+.RPJaden .landy-mainpoke .landy-mainlvl {
+    font-size: 13px;
+    color: #ffc670;
+    letter-spacing: 1px;
+    margin-bottom:7px;
+}
+
+.RPJaden .landy-mainpoke .landy-maintalent {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #ddd0bd;
+    line-height: 1.6;
+    margin-top:10px;
+    padding-top:5px;
+    border-top: 1px solid #ffb25438;
+    flex:1;
+}
+
+.RPJaden .landy-mainpoke .landy-maintalent b {
+    color: #ffc670;
+    text-transform:uppercase;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: center;
+    display:flex;
+    gap:10px;
+    justify-content: space-evenly;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats div {
+    background: #ffdca00d;
+  text-align:center;
+  padding:5px;
+  width:100%;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats div b {
+    color: #ffc670;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats th {
+    width: 16.66%;
+    color: #ffc670;
+    font-weight: 500;
+    padding-bottom: 4px;
+    padding-top:10px;
+    letter-spacing: 1px;
+    border-top: 1px solid #ffb25438;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats td {
+    color: #f0e2c8;
+    padding: 3px 0;
+    border-top: 1px solid #f3ece30d;
+}
+
+.RPJaden .landy-hpbar {
+    margin-top: 5px;
+    width:100%;
+}
+
+.RPJaden .landy-hpbar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #ffc670;
+    margin-bottom: 3px;
+}
+
+.RPJaden .landy-hpbar-track {
+    height: 6px;
+    background: #1c1712;
+    border-radius: 3px;
+    overflow: hidden;
+} 
+
+.RPJaden .landy-hpbar-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #ffc670, #ff821e);
+}
+
+.RPJaden .landy-spotify {
+    padding: 0px 17px;
+}
+
+.RPJaden iframe {
+    border: 1px solid #ffb25438;
+}
+
+.BackgroundColorContainer_backgroundColorContainer__YZSQ7 {
+    background-color: #212121 !important;
+}
+
+codebylandy {
+  width:100%;
+  display:block;
+  text-align:center;
+  font-size:10px;
+  color:#bababa;
+  margin-top: 10px;
+  padding-bottom:12px;
+}
+
+
+/* JADEN-SPECIFIC ELEMENTS */
+
+.RPJaden .landy-mainpoke .landy-mainname {
+    color: #ffdca0;
+}
+
+.RPJaden .landy-mainpoke .landy-mainlvl {
+    color: #ffc670;
+}
+
+.RPJaden .landy-mainpoke .landy-maintalent b {
+    color: #ffc670;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats th {
+    color: #ffc670;
+}
+
+.RPJaden .landy-mainpoke .landy-mainstats td {
+    color: #f0e2c8;
+}
