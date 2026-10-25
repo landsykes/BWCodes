@@ -123,10 +123,10 @@
 }
 
 .landy-trigger {
-    background-color: #241a2e;
+    background-color: #312020;
     padding: 5px 15px;
-    color: #d68fd6;
-    border: 1px solid #d68fd6;
+    color: #d76969;
+    border: 1px solid #d76969;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -139,6 +139,7 @@
 
 .landy-trigger i {
     font-size:30px;
+    color: #d76969 !important;
 }
 
 .RPKai .landy-sidebar {
