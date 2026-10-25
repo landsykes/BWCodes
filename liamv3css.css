@@ -1,5 +1,5 @@
 .RPLiam { 
-  background-color:#101810; 
+  background-color:#1e1e1e; 
   width:580px; 
   font-family: "Assistant", sans-serif; 
   margin:auto; 
@@ -17,7 +17,7 @@
     width: 100%;
     height: 240px;
     overflow: hidden;
-    background: #101810;  
+    background: #1e1e1e;  
 }
 
 .RPLiam .landy-bannerWrap img {
@@ -32,7 +32,7 @@
 .RPLiam .landy-bannerWrap .landy-bannerFade {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, #10181000 0%, #10181099 45%, #101810f5 100%);
+    background: linear-gradient(180deg, #1e1e1e00 0%, #1e1e1e99 45%, #1e1e1ef5 100%);
 }
 
 .RPLiam .landy-bannerWrap .landy-bannerTitle {
