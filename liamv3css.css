@@ -50,7 +50,7 @@
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 2px;
-    color: #BCD962;
+    color: #ff8e33;
     margin: 0;
     text-transform:uppercase;
 }
@@ -110,7 +110,7 @@
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #BCD962;
+    color: #ff8e33;
     padding-bottom: 2px;
 }
 
@@ -157,7 +157,7 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #BCD962;
+    color: #ff8e33;
     text-align: left;
     margin: 5px 0 8px;
     border-bottom: 1px solid #BCD96238;
@@ -306,7 +306,7 @@
 }
 
 .RPLiam .landy-mainpoke .landy-maintalent b {
-    color: #BCD962;
+    color: #ff8e33;
     text-transform:uppercase;
 }
 
@@ -394,27 +394,4 @@ codebylandy {
   color:#bababa;
   margin-top: 10px;
   padding-bottom:12px;
-}
-
-
-/* LIAM-SPECIFIC ELEMENTS */
-
-.RPLiam .landy-mainpoke .landy-mainname {
-    color: #e5edcf;
-}
-
-.RPLiam .landy-mainpoke .landy-mainlvl {
-    color: #BCD962;
-}
-
-.RPLiam .landy-mainpoke .landy-maintalent b {
-    color: #BCD962;
-}
-
-.RPLiam .landy-mainpoke .landy-mainstats th {
-    color: #BCD962;
-}
-
-.RPLiam .landy-mainpoke .landy-mainstats td {
-    color: #e0e8d2;
 }
