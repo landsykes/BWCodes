@@ -285,6 +285,7 @@
     font-weight: 600;
     font-size: 18px;
     margin-top: -4px;
+  color:#ff8e33;
 } 
 
 .RPLiam .landy-mainpoke .landy-mainlvl {
@@ -371,7 +372,7 @@
 .RPLiam .landy-hpbar-fill {
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg, #d4e878, #8eaa50, #416b3d);
+    background: linear-gradient(90deg, #ffa02a, #ff7600, #ff4700);
 }
 
 .RPLiam .landy-spotify {
