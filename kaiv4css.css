@@ -1,0 +1,568 @@
+.RPKai { 
+  max-width:580px; 
+  font-family: "Assistant", sans-serif; 
+  margin:auto; 
+  --shape: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cpath d='M 78 0 C 105.614 0 128 22.386 128 50 C 128 22.386 150.386 0 178 0 L 256 0 L 256 78 C 256 105.614 233.614 128 206 128 C 233.614 128 256 150.386 256 178 L 256 256 L 178 256 C 150.386 256 128 233.614 128 206 C 128 233.614 105.614 256 78 256 L 0 256 L 0 178 C 0 150.386 22.386 128 50 128 C 22.386 128 0 105.614 0 78 L 0 0 Z'/%3E%3C/svg%3E");
+}
+
+.RPKai, .RPKai * {
+    box-sizing: border-box;
+}
+
+.RPKai .landy-block {
+    background-color:#111729;
+    border-radius:4px;
+    position:relative;
+}
+
+.RPKai .landy-gap {
+    height:16px;
+    background:transparent;
+}
+
+/*BANNER*/   
+
+.RPKai .landy-bannerWrap {
+    position:relative;
+    width:100%;
+    height:240px;
+    overflow:hidden;
+    border-radius:4px 4px 0 0;
+    background:#111729;  
+}
+
+.RPKai .landy-bannerWrap img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    filter:brightness(.82) saturate(1.05) contrast(1.05);
+}
+
+.RPKai .landy-bannerWrap .landy-bannerFade {
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg, #11172900 0%, #11172999 45%, #111729f5 100%);
+} 
+
+.RPKai .landy-bannerWrap .landy-bannerTitle {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:0 20px 16px;
+    text-align:center;
+}
+
+.RPKai .landy-bannerWrap .landy-bannerTitle .landy-RPTitle {
+    position:relative;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:700;
+    font-size:30px;
+    letter-spacing:2px;
+    color:#f0f0ff;
+    -webkit-text-stroke:.6px #f0f0ff;
+    margin:0;
+    text-transform:uppercase;
+}
+
+.RPKai .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
+    position:relative;
+    margin-top:3px;
+    font-style:italic;
+    font-size:13px;
+    letter-spacing:1px;
+    color:#8dbaff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.RPKai .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:before, 
+.RPKai .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle:after {
+    content:'';
+    flex:1;
+    max-width:100px;
+    height:1px;
+    background:linear-gradient(90deg, transparent, #8dbaff8c, transparent);
+}
+
+.RPKai .landy-infobar {
+    background:#111729;
+    border-top:1px solid #8fa4ff33;
+    border-bottom:1px solid #8fa4ff33;
+    text-align:center;
+    padding:8px 10px;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#8dbaff;
+}
+
+.RPKai .landy-dataRP {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:6px;
+    padding:14px 20px 0;
+}
+
+.RPKai .landy-dataRP .landy-subdata {
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    padding-right:11px;
+    overflow:hidden;
+    border-radius:3px;
+    border:1px solid #8fa4ff33;
+    background-color:#8dbaff10;
+    font-size:12px;
+    font-weight:600;
+    color:#f0f0ff;
+}
+
+.RPKai .landy-dataRP .landy-subdata .landy-titlesubdata {
+    margin-right:4px;
+    padding:3px 10px;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#fff;
+    background:linear-gradient(90deg, #7cc2ee, #7a4fd6);
+}
+
+/*TRIGGER WARNING*/
+
+.RPKai .landy-trigger {
+    display:flex;
+    align-items:stretch;
+    gap:12px;
+    margin:16px 20px 0;
+    overflow:hidden;
+    background-color:#2b1a20;
+    border:1px solid #c96a6a;
+    border-radius:3px;
+    font-size:12.5px;
+    line-height:1.4;
+    color:#e8aaaa;
+}
+
+.RPKai .landy-trigger i {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+    width:46px;
+    font-size:24px;
+    color:#fff;
+    background-color:#c96a6a;
+}
+
+.RPKai .landy-trigger div {
+    padding:8px 14px 8px 0;
+}
+
+.RPKai .landy-trigger b {
+    font-size:11px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:#f2c2c2;
+}
+
+/*BODY*/
+
+.RPKai .landy-rpbody {
+    display:flex;
+    gap:20px;
+    padding:20px;
+    padding-bottom:10px;
+}
+
+.RPKai .landy-textcontent {
+    flex:1;
+    font-size:13px;
+    line-height:1.6;
+    color:#dcdcf0;
+    text-align:justify;
+    white-space:pre-line;
+    hyphens:auto;
+    -webkit-hyphens:auto;
+}
+
+.RPKai .landy-sidebar {
+    width:155px;
+    flex-shrink:0;
+    text-align:center;
+}
+
+.RPKai .landy-sidebar i {
+    font-size:14px;
+}
+
+.RPKai .landy-sidetitle {
+    margin:0 0 8px;
+    padding:5px 10px;
+    border-radius:3px;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    text-align:left;
+    color:#fff;
+    background:linear-gradient(90deg, #7cc2ee, #7a4fd6);
+}
+
+.RPKai .landy-sidetitle span {
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.RPKai .landy-sidebar .landy-poke {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:6px 8px;
+    text-align:left;
+    padding:6px 8px;
+    margin-bottom:5px;
+    background:#8dbaff10;
+    border:1px solid #8fa4ff33;
+    border-radius:3px;
+}
+
+.RPKai .landy-sidebar .landy-poke img {
+    width:38px;
+    height:38px;
+    padding:3px;
+    flex-shrink:0;
+    background:var(--shape-soft) center / 100% 100% no-repeat;
+}
+
+.RPKai .landy-sidebar .landy-poke .landy-pokename {
+    font-size:12px;
+    font-weight:700;
+    color:#f0f0ff;
+    line-height:1.2;
+}
+
+.RPKai .landy-sidebar .landy-poke .landy-pokeinfo {
+    font-size:10px;
+    color:#8dbaff;
+    line-height:14px;
+    padding-top:1px;
+}
+
+.RPKai .landy-sidebar .landy-poke .landy-pokeitem {
+    font-size:10.5px;
+    line-height:14px;
+    color:#aab2d3;
+}
+
+.RPKai .landy-sidebar .landy-rowitem {
+    display:flex;
+    align-items:center;
+    gap:7px;
+    text-align:left;
+    padding:2px 10px 2px 6px;
+    font-size:11.5px;
+    font-weight:600;
+    color:#dcdcf0;
+    background:#8dbaff10;
+    border:1px solid #8fa4ff33;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+
+.RPKai .landy-sidebar .landy-rowitem img {
+    width:22px;
+    height:22px;
+}
+
+.RPKai .landy-spotify {
+    padding:0px 20px 20px;
+}
+
+.RPKai .landy-spotify iframe {
+    display:block;
+    width:100%;
+    height:80px;
+    border-radius:3px;
+}
+
+.RPKai iframe {
+    border: 1px solid #8fa4ff33;
+}
+
+/*HP BAR*/
+
+.RPKai .landy-hpbar {
+    width:100%;
+}
+
+.RPKai .landy-hpbar-label {
+    display:flex;
+    justify-content:space-between;
+    font-size:10px;
+    font-weight:700;
+    color:#8dbaff;
+    margin-bottom:3px;
+}
+
+.RPKai .landy-hpbar-label span:last-child {
+    color:#f0f0ff;
+}
+
+.RPKai .landy-hpbar-track {
+    height:5px;
+    background:#1d2540;
+    border-radius:3px;
+    overflow:hidden;
+}
+
+.RPKai .landy-hpbar-fill {
+    height:100%;
+    width:100%;
+    background:linear-gradient(90deg, #7cc2ee, #7a4fd6);
+}
+
+/*BOTTOM*/
+
+.RPKai .landy-mainpoke {
+    padding:16px;
+}
+
+.RPKai .landy-mainpoke .topmainpoke {
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
+    color:#f0f0ff;
+}
+
+.RPKai .landy-mainpoke .landy-mainpokeleft {
+    width:100%;
+}
+
+.RPKai .landy-mainpoke .landy-mainname {
+    font-family:'Cormorant Garamond', serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:1;
+}
+
+.RPKai .landy-mainpoke .landy-mainlvl {
+    font-size:11px;
+    font-weight:600;
+    color:#8dbaff;
+    letter-spacing:1px;
+    margin:0px 0 8px;
+}
+
+.RPKai .landy-mainpoke .landy-mainsprite {
+    position:relative;
+    width:100%;
+    height:96px;
+    margin-bottom:8px;
+}
+
+.RPKai .landy-mainpoke .landy-mainspritebg {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#e5b96a center / cover no-repeat;
+    -webkit-mask: var(--shape) center / 100% 100% no-repeat;
+            mask: var(--shape) center / 100% 100% no-repeat;
+}
+
+.RPKai .landy-mainpoke .landy-mainsprite img {
+    position:absolute;
+    left:50%;
+    top:0;
+    width:96px;
+    height:96px;
+    margin-left:-48px;
+}
+
+.RPKai .landy-mainpoke .landy-mainstats {
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    font-size:14px;
+    font-weight:700;
+    text-align:center;
+}
+
+.RPKai .landy-mainpoke .landy-mainstats div {
+    width:calc(33.333% - 4px);
+    padding:2px 0 3px;
+    line-height:1.2;
+    background:#8dbaff10;
+    border:1px solid #8fa4ff33;
+    border-radius:3px;
+    text-align:center;
+}
+
+.RPKai .landy-mainpoke .landy-mainstats div b {
+    font-size:9.5px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#8dbaff;
+}
+
+.RPKai .landy-flextalentobj {
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    margin-top:6px;
+}
+
+.RPKai .landy-mainpoke .landy-maintalent {
+    flex:1;
+    padding:8px 10px;
+    font-size:11.5px;
+    line-height:1.45;
+    color:#aab2d3;
+    background:#8dbaff10;
+    border:1px solid #8fa4ff33;
+    border-radius:3px;
+}
+
+.RPKai .landy-mainpoke .landy-maintalent b {
+    font-size:11px;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    color:#8dbaff;
+}
+
+.RPKai .landy-modo {
+    padding:16px;
+    font-size:13px;
+    line-height:1.5;
+    color:#dcdcf0;
+}
+
+.RPKai .landy-modo b {
+    font-size:12px;
+    font-weight:700;
+    color:#8dbaff !important;
+    text-transform:uppercase;
+}
+
+.RPKai highlight {
+  color:#8dbaff;
+}
+
+.RPKai kai {
+    color:#a58bf5;
+}
+
+codebylandy {
+  width:100%;
+  display:block;
+  text-align:center;
+  font-size:10px;
+  color:#bababa;
+  margin-top: 10px;
+  padding-bottom:12px;
+}
+
+
+/*BOTTOM : POKEMON + MODERATION (deux blocs de même hauteur)*/
+
+.RPKai .landy-bottom {
+    display:flex;
+    align-items:stretch;
+    gap:16px;
+}
+
+.RPKai .landy-bottom .landy-blockpoke {
+    width:232px;
+    flex-shrink:0;
+}
+
+.RPKai .landy-bottom .landy-blockmodo {
+    flex:1;
+    min-width:0;
+}
+
+/*FORME DERRIERE LES SPRITES*/
+
+.RPKai {
+    --shape-soft: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cpath fill='white' fill-opacity='.14' d='M 78 0 C 105.614 0 128 22.386 128 50 C 128 22.386 150.386 0 178 0 L 256 0 L 256 78 C 256 105.614 233.614 128 206 128 C 233.614 128 256 150.386 256 178 L 256 256 L 178 256 C 150.386 256 128 233.614 128 206 C 128 233.614 105.614 256 78 256 L 0 256 L 0 178 C 0 150.386 22.386 128 50 128 C 22.386 128 0 105.614 0 78 L 0 0 Z'/%3E%3C/svg%3E");
+}
+
+/*SWITCH POKEMON*/
+
+.RPKai .landy-radio {
+    display:none;
+}
+
+.RPKai .landy-tabs {
+    display:flex;
+    flex-wrap:nowrap;
+    gap:4px;
+    margin-bottom:12px;
+}
+
+.RPKai .landy-tab {
+    position:relative;
+    display:block;
+    width:30px;
+    height:30px;
+    flex-shrink:0;
+    cursor:pointer;
+}
+
+.RPKai .landy-tab:before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#aab2d359;
+    -webkit-mask: var(--shape) center / 100% 100% no-repeat;
+            mask: var(--shape) center / 100% 100% no-repeat;
+}
+
+.RPKai .landy-tab:hover:before {
+    background:#aab2d38c;
+}
+
+.RPKai .landy-tab img {
+    position:relative;
+    display:block;
+    width:32px;
+    height:32px;
+    margin:-1px;
+}
+
+.RPKai .landy-r1:checked ~ .landy-tabs .landy-t1:before, 
+.RPKai .landy-r2:checked ~ .landy-tabs .landy-t2:before, 
+.RPKai .landy-r3:checked ~ .landy-tabs .landy-t3:before, 
+.RPKai .landy-r4:checked ~ .landy-tabs .landy-t4:before, 
+.RPKai .landy-r5:checked ~ .landy-tabs .landy-t5:before, 
+.RPKai .landy-r6:checked ~ .landy-tabs .landy-t6:before {
+    background:linear-gradient(135deg, #7cc2ee, #7a4fd6);
+}
+
+.RPKai .landy-pk {
+    display:none;
+}
+
+.RPKai .landy-r1:checked ~ .landy-panels .landy-p1, 
+.RPKai .landy-r2:checked ~ .landy-panels .landy-p2, 
+.RPKai .landy-r3:checked ~ .landy-panels .landy-p3, 
+.RPKai .landy-r4:checked ~ .landy-panels .landy-p4, 
+.RPKai .landy-r5:checked ~ .landy-panels .landy-p5, 
+.RPKai .landy-r6:checked ~ .landy-panels .landy-p6 {
+    display:block;
+}
