@@ -506,71 +506,13 @@ codebylandy {
     min-width:0;
 }
 
-/*SWITCH POKEMON*/
-
-.RPLiam .landy-radio {
-    display:none;
-}
-
-.RPLiam .landy-tabs {
-    display:flex;
-    flex-wrap:nowrap;
-    gap:4px;
-    margin-bottom:12px;
-}
-
-.RPLiam .landy-tab {
-    position:relative;
-    display:block;
-    width:30px;
-    height:30px;
-    flex-shrink:0;
-    cursor:pointer;
-}
-
-.RPLiam .landy-tab:before {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background:#c8d5b559;
-    -webkit-mask: var(--shape) center / 100% 100% no-repeat;
-            mask: var(--shape) center / 100% 100% no-repeat;
-}
-
-.RPLiam .landy-tab:hover:before {
-    background:#c8d5b58c;
-}
-
-.RPLiam .landy-tab img {
-    position:relative;
-    display:block;
-    width:32px;
-    height:32px;
-    margin:-1px;
-}
-
-.RPLiam .landy-r1:checked ~ .landy-tabs .landy-t1:before, 
-.RPLiam .landy-r2:checked ~ .landy-tabs .landy-t2:before, 
-.RPLiam .landy-r3:checked ~ .landy-tabs .landy-t3:before, 
-.RPLiam .landy-r4:checked ~ .landy-tabs .landy-t4:before, 
-.RPLiam .landy-r5:checked ~ .landy-tabs .landy-t5:before, 
-.RPLiam .landy-r6:checked ~ .landy-tabs .landy-t6:before {
-    background:linear-gradient(135deg, #ff9d42, #ff7600);
-}
+/*POKEMON AFFICHE*/
 
 .RPLiam .landy-pk {
     display:none;
 }
 
-.RPLiam .landy-r1:checked ~ .landy-panels .landy-p1, 
-.RPLiam .landy-r2:checked ~ .landy-panels .landy-p2, 
-.RPLiam .landy-r3:checked ~ .landy-panels .landy-p3, 
-.RPLiam .landy-r4:checked ~ .landy-panels .landy-p4, 
-.RPLiam .landy-r5:checked ~ .landy-panels .landy-p5, 
-.RPLiam .landy-r6:checked ~ .landy-panels .landy-p6 {
+.RPLiam .landy-pk.landyactive {
     display:block;
 }
 
