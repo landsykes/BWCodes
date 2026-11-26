@@ -71,7 +71,7 @@
     font-style:italic;
     font-size:13px;
     letter-spacing:1px;
-    color:#7ec8f2;
+    color:#ffb066;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -84,7 +84,7 @@
     flex:1;
     max-width:100px;
     height:1px;
-    background:linear-gradient(90deg, transparent, #7ec8f28c, transparent);
+    background:linear-gradient(90deg, transparent, #ffb0668c, transparent);
 }
 
 .RPCayenn .landy-infobar {
@@ -96,7 +96,7 @@
     font-size:11px;
     letter-spacing:2px;
     text-transform:uppercase;
-    color:#7ec8f2;
+    color:#ffb066;
 }
 
 .RPCayenn .landy-dataRP {
@@ -334,6 +334,7 @@
     width:100%;
     background:linear-gradient(90deg, #ff9d42, #e0662a);
 }
+
 
 .RPCayenn .landy-mainpoke {
     padding:16px;
