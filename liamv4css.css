@@ -340,8 +340,7 @@
     width:100%;
     background:linear-gradient(90deg, #ffa02a, #ff7600, #ff4700);
 }
- 
-/*BOTTOM*/
+
  
 .RPLiam .landy-mainpoke {
     padding:16px;
@@ -488,8 +487,6 @@ codebylandy {
   padding-bottom:12px;
 }
  
-/*BOTTOM : POKEMON + MODERATION*/
- 
 .RPLiam .landy-bottom {
     display:flex;
     align-items:stretch;
@@ -514,4 +511,27 @@ codebylandy {
  
 .RPLiam .landy-pk.landyactive {
     display:block;
+}
+
+/*TYPES (MODERATION)*/
+
+.landy-blockmodo acier,
+.landy-blockmodo combat,
+.landy-blockmodo dragon,
+.landy-blockmodo eau,
+.landy-blockmodo electrik,
+.landy-blockmodo fee,
+.landy-blockmodo feu,
+.landy-blockmodo glace,
+.landy-blockmodo insecte,
+.landy-blockmodo normal,
+.landy-blockmodo plante,
+.landy-blockmodo poison,
+.landy-blockmodo psy,
+.landy-blockmodo roche,
+.landy-blockmodo sol,
+.landy-blockmodo spectre,
+.landy-blockmodo tenebres,
+.landy-blockmodo vol {
+    text-transform:uppercase;
 }
