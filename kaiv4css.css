@@ -37,14 +37,13 @@
     height:100%;
     object-fit:cover;
     display:block;
-    filter:brightness(.82) saturate(1.05) contrast(1.05);
 }
 
 .RPKai .landy-bannerWrap .landy-bannerFade {
     position:absolute;
     inset:0;
     background:linear-gradient(180deg, #11172900 0%, #11172999 45%, #111729f5 100%);
-} 
+}
 
 .RPKai .landy-bannerWrap .landy-bannerTitle {
     position:absolute;
@@ -59,17 +58,16 @@
     position:relative;
     font-family:'Cormorant Garamond', serif;
     font-weight:700;
-    font-size:30px;
+    font-size:34px;
     letter-spacing:2px;
     color:#f0f0ff;
-    -webkit-text-stroke:.6px #f0f0ff;
     margin:0;
     text-transform:uppercase;
 }
 
 .RPKai .landy-bannerWrap .landy-bannerTitle .landy-RPSubTitle {
     position:relative;
-    margin-top:3px;
+    margin-top:-5px;
     font-style:italic;
     font-size:13px;
     letter-spacing:1px;
@@ -225,7 +223,7 @@
     display:flex;
     flex-wrap:wrap;
     align-items:center;
-    gap:6px 8px;
+    gap:0px 8px;
     text-align:left;
     padding:6px 8px;
     margin-bottom:5px;
@@ -289,12 +287,20 @@
 .RPKai .landy-spotify iframe {
     display:block;
     width:100%;
-    height:80px;
+    height:82px;
     border-radius:3px;
 }
 
 .RPKai iframe {
     border: 1px solid #8fa4ff33;
+}
+
+.RPKai hr {
+    border: none;
+    border-top: 1px dashed #94a3b8;
+    background: transparent;
+    margin-bottom: -5px;
+    margin-top: 10px;
 }
 
 /*HP BAR*/
@@ -377,7 +383,7 @@
     left:0;
     right:0;
     bottom:0;
-    background:#e5b96a center / cover no-repeat;
+    background: url(https://i.pinimg.com/736x/7d/11/fc/7d11fc997df37e1140275eb9bf6c5b67.jpg) center / cover no-repeat;
     -webkit-mask: var(--shape) center / 100% 100% no-repeat;
             mask: var(--shape) center / 100% 100% no-repeat;
 }
@@ -474,9 +480,6 @@ codebylandy {
   padding-bottom:12px;
 }
 
-
-/*BOTTOM : POKEMON + MODERATION (deux blocs de même hauteur)*/
-
 .RPKai .landy-bottom {
     display:flex;
     align-items:stretch;
@@ -493,76 +496,39 @@ codebylandy {
     min-width:0;
 }
 
-/*FORME DERRIERE LES SPRITES*/
-
 .RPKai {
     --shape-soft: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cpath fill='white' fill-opacity='.14' d='M 78 0 C 105.614 0 128 22.386 128 50 C 128 22.386 150.386 0 178 0 L 256 0 L 256 78 C 256 105.614 233.614 128 206 128 C 233.614 128 256 150.386 256 178 L 256 256 L 178 256 C 150.386 256 128 233.614 128 206 C 128 233.614 105.614 256 78 256 L 0 256 L 0 178 C 0 150.386 22.386 128 50 128 C 22.386 128 0 105.614 0 78 L 0 0 Z'/%3E%3C/svg%3E");
 }
 
-/*SWITCH POKEMON*/
-
-.RPKai .landy-radio {
-    display:none;
-}
-
-.RPKai .landy-tabs {
-    display:flex;
-    flex-wrap:nowrap;
-    gap:4px;
-    margin-bottom:12px;
-}
-
-.RPKai .landy-tab {
-    position:relative;
-    display:block;
-    width:30px;
-    height:30px;
-    flex-shrink:0;
-    cursor:pointer;
-}
-
-.RPKai .landy-tab:before {
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background:#aab2d359;
-    -webkit-mask: var(--shape) center / 100% 100% no-repeat;
-            mask: var(--shape) center / 100% 100% no-repeat;
-}
-
-.RPKai .landy-tab:hover:before {
-    background:#aab2d38c;
-}
-
-.RPKai .landy-tab img {
-    position:relative;
-    display:block;
-    width:32px;
-    height:32px;
-    margin:-1px;
-}
-
-.RPKai .landy-r1:checked ~ .landy-tabs .landy-t1:before, 
-.RPKai .landy-r2:checked ~ .landy-tabs .landy-t2:before, 
-.RPKai .landy-r3:checked ~ .landy-tabs .landy-t3:before, 
-.RPKai .landy-r4:checked ~ .landy-tabs .landy-t4:before, 
-.RPKai .landy-r5:checked ~ .landy-tabs .landy-t5:before, 
-.RPKai .landy-r6:checked ~ .landy-tabs .landy-t6:before {
-    background:linear-gradient(135deg, #7cc2ee, #7a4fd6);
-}
+/*POKEMON AFFICHE*/
 
 .RPKai .landy-pk {
     display:none;
 }
 
-.RPKai .landy-r1:checked ~ .landy-panels .landy-p1, 
-.RPKai .landy-r2:checked ~ .landy-panels .landy-p2, 
-.RPKai .landy-r3:checked ~ .landy-panels .landy-p3, 
-.RPKai .landy-r4:checked ~ .landy-panels .landy-p4, 
-.RPKai .landy-r5:checked ~ .landy-panels .landy-p5, 
-.RPKai .landy-r6:checked ~ .landy-panels .landy-p6 {
+.RPKai .landy-pk.landyactive {
     display:block;
+}
+
+/*TYPES*/
+
+.landy-blockmodo acier,
+.landy-blockmodo combat,
+.landy-blockmodo dragon,
+.landy-blockmodo eau,
+.landy-blockmodo electrik,
+.landy-blockmodo fee,
+.landy-blockmodo feu,
+.landy-blockmodo glace,
+.landy-blockmodo insecte,
+.landy-blockmodo normal,
+.landy-blockmodo plante,
+.landy-blockmodo poison,
+.landy-blockmodo psy,
+.landy-blockmodo roche,
+.landy-blockmodo sol,
+.landy-blockmodo spectre,
+.landy-blockmodo tenebres,
+.landy-blockmodo vol {
+    text-transform:uppercase;
 }
