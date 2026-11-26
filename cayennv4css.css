@@ -10,7 +10,7 @@
 }
 
 .RPCayenn .landy-block {
-    background-color:#121a24;
+    background-color:#1b1e23;
     border-radius:4px;
     position:relative;
 }
@@ -28,7 +28,7 @@
     height:240px;
     overflow:hidden;
     border-radius:4px 4px 0 0;
-    background:#121a24;  
+    background:#1b1e23;  
 }
 
 .RPCayenn .landy-bannerWrap img {
@@ -42,7 +42,7 @@
 .RPCayenn .landy-bannerWrap .landy-bannerFade {
     position:absolute;
     inset:0;
-    background:linear-gradient(180deg, #121a2400 0%, #121a2499 45%, #121a24f5 100%);
+    background:linear-gradient(180deg, #1b1e2300 0%, #1b1e2399 45%, #1b1e23f5 100%);
 }
 
 .RPCayenn .landy-bannerWrap .landy-bannerTitle {
@@ -88,7 +88,7 @@
 }
 
 .RPCayenn .landy-infobar {
-    background:#121a24;
+    background:#1b1e23;
     border-top:1px solid #ffb06633;
     border-bottom:1px solid #ffb06633;
     text-align:center;
@@ -324,7 +324,7 @@
 
 .RPCayenn .landy-hpbar-track {
     height:5px;
-    background:#1f2b3a;
+    background:#2a2f36;
     border-radius:3px;
     overflow:hidden;
 }
@@ -334,8 +334,6 @@
     width:100%;
     background:linear-gradient(90deg, #ff9d42, #e0662a);
 }
-
-/*BOTTOM*/
 
 .RPCayenn .landy-mainpoke {
     padding:16px;
@@ -480,9 +478,6 @@ codebylandy {
   padding-bottom:12px;
 }
 
-
-/*BOTTOM : POKEMON + MODERATION (deux blocs de même hauteur)*/
-
 .RPCayenn .landy-bottom {
     display:flex;
     align-items:stretch;
@@ -499,8 +494,6 @@ codebylandy {
     min-width:0;
 }
 
-/*FORME DERRIERE LES SPRITES*/
-
 .RPCayenn {
     --shape-soft: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cpath fill='white' fill-opacity='.14' d='M 78 0 C 105.614 0 128 22.386 128 50 C 128 22.386 150.386 0 178 0 L 256 0 L 256 78 C 256 105.614 233.614 128 206 128 C 233.614 128 256 150.386 256 178 L 256 256 L 178 256 C 150.386 256 128 233.614 128 206 C 128 233.614 105.614 256 78 256 L 0 256 L 0 178 C 0 150.386 22.386 128 50 128 C 22.386 128 0 105.614 0 78 L 0 0 Z'/%3E%3C/svg%3E");
 }
@@ -515,7 +508,7 @@ codebylandy {
     display:block;
 }
 
-/*TYPES (MODERATION)*/
+/*TYPES*/
 
 .landy-blockmodo acier,
 .landy-blockmodo combat,
